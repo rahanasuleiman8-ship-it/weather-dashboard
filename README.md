@@ -115,7 +115,7 @@ MIT License
 
 **Rahana Suleiman**
 - Email: rahanasuleiman8@gmail.com
-- LinkedIn: [linkedin.com/in/rahanasuleiman](https://www.linkedin.com/in/rahana-suleiman-106b103b1/)
+- LinkedIn: [linkedin.com/in/rahana-suleiman-106b103b1](https://www.linkedin.com/in/rahana-suleiman-106b103b1/)
 - GitHub: [github.com/rahanasuleiman8-ship-it](https://github.com/rahanasuleiman8-ship-it)
 
 ---
