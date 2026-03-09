@@ -1,131 +1,31 @@
 # Weather Dashboard
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat&logo=typescript)
 ![Chart.js](https://img.shields.io/badge/Chart.js-4-FF6384?style=flat)
-![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-API-orange?style=flat)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat)
-![Year](https://img.shields.io/badge/Year-2025-blue?style=flat)
+![Open-Meteo](https://img.shields.io/badge/Open--Meteo-API-orange?style=flat)
+![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=flat)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-weather--dashboard--rs.vercel.app-blue?style=flat&logo=vercel)](https://weather-dashboard-rs.vercel.app)
 
-A responsive weather application that displays current weather and forecasts using the OpenWeatherMap API. Features location-based weather data and beautiful visualizations.
+A responsive weather application that displays current weather and forecasts using the **Open-Meteo API** (free, no API key required).
+
+## 🌐 Live Demo
+**[https://weather-dashboard-rs.vercel.app](https://weather-dashboard-rs.vercel.app)**
 
 ## 🌟 Features
-
-- **Current Weather** - Real-time weather for any city
-- **5-Day Forecast** - Extended weather forecast
+- **Current Weather** - Real-time weather for any city worldwide
+- **5-Day Forecast** - Extended weather forecast with precipitation probability
 - **Geolocation** - Auto-detect user location
-- **Data Visualization** - Temperature and humidity charts
-- **Responsive Design** - Works on all devices
-- **Weather Icons** - Dynamic icons based on conditions
+- **Data Visualization** - Temperature and humidity charts (Chart.js)
+- **Lazy Loading** - Components loaded on demand for fast initial load
+- **Dynamic Backgrounds** - Background changes based on weather conditions
+- **No API Key** - Uses Open-Meteo (completely free & open source)
 
 ## 🛠️ Tech Stack
-
 - **React 18** - UI library
-- **Chart.js** - Data visualization
-- **OpenWeatherMap API** - Weather data
-- **Geolocation API** - User location
+- **TypeScript** - Type safety
+- **Chart.js + react-chartjs-2** - Data visualization
+- **Open-Meteo API** - Free weather data (no key required)
 - **Tailwind CSS** - Styling
-
-## 📁 Project Structure
-
-```
-weather-dashboard/
-├── src/
-│   ├── components/
-│   │   ├── CurrentWeather.tsx
-│   │   ├── Forecast.tsx
-│   │   ├── SearchBar.tsx
-│   │   ├── WeatherChart.tsx
-│   │   └── WeatherIcon.tsx
-│   ├── hooks/
-│   │   └── useWeather.ts
-│   ├── services/
-│   │   └── weatherApi.ts
-│   └── types/
-│       └── weather.ts
-├── public/
-└── README.md
-```
-
-## 🚀 Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/rahanasuleiman8-ship-it/weather-dashboard.git
-
-# Install dependencies
-cd weather-dashboard
-npm install
-
-# Add your API key in .env
-REACT_APP_API_KEY=your_openweathermap_api_key
-
-# Start development server
-npm start
-```
-
-## 🔑 API Key
-
-This project uses the OpenWeatherMap API. Get your free API key at:
-https://openweathermap.org/api
-
-## 📸 Features Preview
-
-### Current Weather Display
-- Temperature (feels like)
-- Weather conditions with icon
-- Humidity, wind speed, pressure
-- Sunrise/sunset times
-
-### 5-Day Forecast
-- Daily forecast cards
-- Temperature range
-- Weather conditions
-
-### Charts
-- Temperature trend (24 hours)
-- Humidity levels
-
-## 🧪 API Endpoints Used
-
-| Endpoint | Description |
-|----------|-------------|
-| `/weather` | Current weather data |
-| `/forecast` | 5-day forecast |
-| `/onecall` | Comprehensive weather data |
-
-## 📈 What I Learned
-
-- Working with REST APIs in React
-- Handling async data with useEffect
-- Chart.js integration
-- Geolocation API usage
-- Error handling for API calls
-
-## 🔮 Future Improvements
-
-- [ ] Weather alerts
-- [ ] Multiple locations saved
-- [ ] Dark mode
-- [ ] PWA support
-- [ ] Air quality index
-
-## 📄 License
-
-MIT License
-
-## 📅 Project Timeline
-
-- **Started:** September 2025
-- **Completed:** October 2025
-- **Duration:** 6 weeks
-
-## 📬 Contact
-
-**Rahana Suleiman**
-- Email: rahanasuleiman8@gmail.com
-- LinkedIn: [linkedin.com/in/rahana-suleiman-106b103b1](https://www.linkedin.com/in/rahana-suleiman-106b103b1/)
-- GitHub: [github.com/rahanasuleiman8-ship-it](https://github.com/rahanasuleiman8-ship-it)
-
----
-
-⭐️ If you found this project interesting, please consider giving it a star!
+- **Vite** - Build tool
+- **React.lazy + Suspense** - Code splitting & lazy loading
