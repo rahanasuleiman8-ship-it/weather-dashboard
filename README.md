@@ -3,6 +3,8 @@
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react)
 ![Chart.js](https://img.shields.io/badge/Chart.js-4-FF6384?style=flat)
 ![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-API-orange?style=flat)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat)
+![Year](https://img.shields.io/badge/Year-2025-blue?style=flat)
 
 A responsive weather application that displays current weather and forecasts using the OpenWeatherMap API. Features location-based weather data and beautiful visualizations.
 
@@ -110,6 +112,12 @@ https://openweathermap.org/api
 ## 📄 License
 
 MIT License
+
+## 📅 Project Timeline
+
+- **Started:** September 2025
+- **Completed:** October 2025
+- **Duration:** 6 weeks
 
 ## 📬 Contact
 
